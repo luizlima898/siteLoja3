@@ -1,0 +1,42 @@
+
+
+
+#corpofale{
+	background-color: brown;
+	color: yellow;
+}
+.men{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+}
+.men li {
+	margin: 0 10px;
+}
+.men li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.men li a:hover{
+	background-color:#555;
+}
+
+#dados{
+	background-color: gray;
+	color: black
+}
+
+#enviarmsg{
+	background-color: gray;
+	color: black;
+	
+}
+
+#txtmsg{
+	width: 900px;
+	height: 50px;
+}

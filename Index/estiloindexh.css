@@ -1,0 +1,286 @@
+#corpo{
+	background-color: brown;
+	color: yellow;
+	margin: 0;
+	padding:0;
+}
+/* Caixa de Pesquisa*/
+#pesquisa{
+	text-align: right;
+	padding-right: 5%;
+	padding-top:2%;
+}
+
+#pesquisa1{
+	width: 20%;
+}
+
+#car{background-color: blue;}
+/*Menu principal*/
+.men{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+}
+.men li {
+	margin: 0 10px;
+}
+.men li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.men li a:hover{
+	background-color:#555;
+}
+/*containers*/
+#containerfiosa{
+	display:flex;
+	justify-content: left;
+}
+#containerfiosb{
+	display:flex;
+	justify-content: left;
+}
+#containerdisjuntores{
+	display:flex;
+	justify-content: left;
+	
+	
+}
+#containerinterruptores{
+	display:flex;
+	justify-content: left;
+	
+}
+#containerconectores{
+	display:flex;
+	justify-content: left;
+	
+}
+#containerisoladores{
+	display:flex;
+	justify-content: left;
+	
+}
+
+#containerlampadas{
+	display:flex;
+	justify-content: left;
+	
+}
+#containerferramentas{
+	display:flex;
+	justify-content: left;
+	
+}
+/*Div básica dos produtos */
+#mat1{
+	background-color:white;
+	width: 400px;
+	height: 500px;
+	padding-left: 100 px;
+	padding-top:20px;
+	color:black;
+	text-align:center;
+	border: 2px solid gray;
+	margin-top:1px;
+	
+}
+.number-input input{
+display: flex;
+align-items: center;
+text-align: center;
+width: 30px;
+margin-left:140px;
+}
+/*caixa da Quantidade*/
+#caixa{
+	align-items: center;
+	text-align: center;
+}
+
+
+#produtoNomeFio1{
+	 text-align:left;
+	 width:300px;
+	 font-weight:600px;
+	 font-size:10px;
+	 background-color: yellow;
+}
+#produtoNomeFio2{
+	 text-align:left;
+	 width:300px;
+	 font-weight:80%;
+	 font-size:10px;
+	 background-color: yellow;
+}
+#produtoNomeFio3{
+	 text-align:left;
+	 width:300px;
+	 font-weight:80%;
+	 font-size:10px;
+	 background-color: yellow;
+}
+#produtoNomeFio4{
+	 text-align:left;
+	 width:300px;
+	 font-weight:80%;
+	 font-size:10px;
+	 background-color: yellow;
+}
+#produtoNomeFio5{
+	 text-align:left;
+	 width:300px;
+	 font-weight:600px;
+	 font-size:10px;
+	 background-color: yellow;
+}
+
+#produtoNomeFio6{
+	 text-align:left;
+	 width:300px;
+	 font-weight:600px;
+	 font-size:10px;
+	 background-color: yellow;
+}
+
+#produtoNomeFio7{
+	 text-align:left;
+	 width:300px;
+	 font-weight:600px;
+	 font-size:10px;
+	 background-color: yellow;
+}
+
+#produtoNomeFio8{
+	 text-align:left;
+	 width:300px;
+	 font-weight:600px;
+	 font-size:10px;
+	 background-color: yellow;
+}
+
+/*Produto 1 Fio */
+#produto1{
+	text-align:center;
+	font-weight:80%;
+}
+
+#produtoNome1{
+	 text-align:left;
+	 width: 90%;
+	 font-weight: 80%;
+	 font-size:10px;
+}
+	
+/*Produto 2 Fio*/
+#produto2{
+	text-align:center;
+	font-weight:80%;
+}
+#produtoNome2{
+	 text-align:left;
+	 width: 90%;
+	 font-weight: 80%;
+	 font-size:10px;
+}
+
+/*Produto 3 Fio*/
+#produto3{
+	text-align:center;
+	font-weight:80%;
+}
+#produtoNome3{
+	 text-align:left;
+	 width: 90%;
+	 font-weight: 80%;
+	 font-size:10px;
+	 
+}
+
+/*Produto 4 Fio*/
+#produto4{
+	text-align:center;
+	font-weight:80%;
+}
+#produtoNome4{
+	 text-align:left;
+	 width: 90%;
+	 font-weight: 80%;
+	 font-size: 10px;
+}
+
+/*Produto 5 Fio */
+#produto5{
+	text-align:center;
+	font-weight:80%;
+}
+#produtoNome5{
+	 text-align:left;
+	 width: 90%;
+	 font-weight: 80%;
+	 font-size: 10px;
+}
+/*Produto 6 Fio */
+#produto6{
+	text-align:center;
+	font-weight:80%;
+}
+#produtoNome6{
+	 text-align:left;
+	 width: 90%;
+	 font-weight: 80%;
+	 font-size: 10px;
+}
+/*Produto 7 Fio*/
+#produto7{
+	text-align:center;
+	font-weight:80%;
+}
+#produtoNome7{
+	 text-align:left;
+	 width: 90%;
+	 font-weight: 80%;
+	 font-size: 10px;
+}
+/*Produto 8 Fio*/
+#produto8{
+	text-align:center;
+	font-weight:80%;
+}
+#produtoNome8{
+	 text-align:left;
+	 width: 90%;
+	 font-weight: 80%;
+	 font-size: 10px;
+}
+
+/*Codificação dos títulos conforme a cor do fio*/
+#vermelho{
+	color: red;
+}
+/*Navegação secundária*/
+
+.men1{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: center;
+	background-color: blue;
+}
+.men1 li {
+	margin: 0 10px;
+}
+.men1 li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.men1 li a:hover{
+	background-color:#123;
+}

@@ -1,0 +1,64 @@
+#detail{
+background-color: black;
+color: yellow;
+width: 100 px;
+height: 100 px;
+}
+#detalhesa{
+background-color:purple;
+color: yellow;
+width: 100 px;
+height: 100 px;
+text-align:left;
+padding-left:50px;
+padding-bottom:50px;
+
+}
+
+
+
+
+.pontos{
+	list-style-type: none
+	
+}
+#comp{
+	background-color:yellow;
+	margin-left:50%;
+}
+.men{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+
+}
+.men li {
+	margin: 0 10px;
+}
+.men li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.men li a:hover{
+	background-color:#555;
+}
+
+.containerfoto{
+	width: 300 px;
+	overflow: hidden;
+}
+
+.imagem-zoom{
+	display: block;
+	width: 100%;
+	transition: transform 0.3s ease;
+}
+
+.imagem-zoom: hover {
+	transform: scale(1.2);
+}
+	

@@ -1,0 +1,97 @@
+
+#corpopagamento{
+	background-color: brown;
+	color: yellow;
+}
+.men{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+}
+.men li {
+	margin: 0 10px;
+}
+.men li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.men li a:hover{
+	background-color:#555;
+}
+#creditcard{
+	background-color: purple;
+	color: yellow;
+	border: 2px solid white;
+	padding-left:20%;
+	margin-bottom:1%;
+}
+#nome{
+	width: 40%;
+	margin-bottom:10px;
+}
+#numero{
+	width: 40%;
+	margin-bottom:10px;
+}
+#data{
+	width: 10%;
+	margin-bottom:10px;
+}
+#codigo{
+	width: 10%;
+	margin-bottom:10px;
+}
+
+#credit{
+	display: flex;
+	flex-direction:column;
+	padding-bottom: 2%;
+}
+#envio{
+	background-color:yellow;
+	width: 20%;
+	margin-left:40%;
+	margin-top:1%;
+}
+
+#debit{
+	background-color: purple;
+	color: yellow;
+	border: 2px solid white;
+	margin-bottom:1%;
+	padding-left:20%;
+	padding-bottom: 2%;
+	
+}
+#debit2{
+	display: flex;
+	flex-direction:column;
+}
+
+#boleto{
+	background-color: purple;
+	color: yellow;
+	border: 2px solid white;
+	margin-bottom:1%;
+	padding-left:20%;
+	padding-bottom: 2%;
+}
+#boletogerar{
+	background-color:yellow;
+	
+}
+#pix{
+	background-color: purple;
+	color: yellow;
+	border: 2px solid white;
+	padding-left:20%;
+	padding-bottom: 2%;
+}
+
+#pixcontact{
+	background-color:yellow;
+}

@@ -1,0 +1,55 @@
+#corpocomprar{
+	background-color: brown;
+	color: yellow;
+}
+.men{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+}
+.men li {
+	margin: 0 10px;
+}
+.men li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.men li a:hover{
+	background-color:#555;
+}
+
+#suascompras{
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+
+.compratable{
+	width: 100%;
+	margin-bottom: 5%;
+	table-layout: fixed;
+	text-align: center;
+}
+#pagamento{
+	background-color:gray;
+	text-align: center;
+}
+#comptot{
+	height: 10%;
+	background-color: yellow;
+}
+
+#endok{
+	background-color: green;
+	text-align: center;
+}
+#endereco{
+	height: 10%;
+	background-color: yellow;
+}

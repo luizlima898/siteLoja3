@@ -1,0 +1,75 @@
+#corpo{
+background-color: brown;
+color: yellow;
+}
+.men{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+}
+.men li {
+	margin: 0 10px;
+}
+.men li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.men li a:hover{
+	background-color:#555;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+#codigo{
+	margin-bottom: 20px;
+	width:10%;
+	
+}
+#nome{
+	margin-bottom: 20px;
+	width:30%;
+	
+}
+#mail{
+	margin-bottom: 20px;
+	width:30%;
+}
+#endereco{
+	margin-bottom: 20px;
+	width:50%;
+}
+#cidade{
+	margin-bottom: 20px;
+	width:30%;
+}
+#cep{
+	
+	margin-bottom: 20px;
+	width:30%;
+}
+
+#botao{
+	text-align: center;
+	background-color: gray;
+}
+#ins{
+	background-color: yellow;
+	width: 20%;
+	margin-left:20%;
+}
+#end{
+	background-color: yellow;
+	width: 20%;
+	margin-left:20%;
+}
+
+#atual{
+	background-color: yellow;
+	width: 20%;
+	margin-left:20%;
+}
